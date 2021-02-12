@@ -3,15 +3,16 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "release": "release-it",
-    "test-release": "release-it --dry-run",
-    "release-alpha": "release-it --preRelease=alpha",
-    "release-beta": "release-it  --preRelease=beta"
+    "release": "dotenv release-it",
+    "test-release": "dotenv release-it --dry-run",
+    "release-alpha": "dotenv release-it --preRelease=alpha",
+    "release-beta": "dotenv release-it  --preRelease=beta"
   },
   "devDependencies": {
     "release-it": "^14.0.3",
     "@release-it/bumper": "^2.0.0",
-    "auto-changelog": "^2.2.1"
+    "auto-changelog": "^2.2.1",
+    "dotenv-cli": "^4.0.0"
   },
   "release-it": {
     "git": {
