@@ -4,9 +4,9 @@
   "private": true,
   "scripts": {
     "release": "dotenv release-it",
-    "test-release": "dotenv release-it --dry-run",
-    "release-alpha": "dotenv release-it --preRelease=alpha",
-    "release-beta": "dotenv release-it  --preRelease=beta"
+    "test-release": "dotenv release-it -- --dry-run",
+    "release-alpha": "dotenv release-it -- --preRelease=alpha",
+    "release-beta": "dotenv release-it -- --preRelease=beta"
   },
   "devDependencies": {
     "release-it": "^14.0.3",
