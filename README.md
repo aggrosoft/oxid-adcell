@@ -4,15 +4,12 @@
 Adcell tracking integration
 
 ## Installation
-
 `composer require aggrosoft/oxid-adcell`
 
 ## Configuration
-
 Set Event ID and Program ID in module settings
 
 ## About
-
 Module will add Adcell Conversion Tracking, 1st Party Tracking and the following Container tags:
 
 * startpage
