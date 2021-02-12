@@ -10,7 +10,7 @@ $aModule = array(
         'en' => 'Adcell tracking integration'
     ],
     'thumbnail'    => '',
-    'version'      => '1.0.0',
+    'version'      => '1.0.1-alpha.0',
     'author'       => 'Aggrosoft GmbH',
     'extend'      => [
         \OxidEsales\Eshop\Core\ViewConfig::class => \Aggrosoft\Adcell\Application\Core\ViewConfig::class
