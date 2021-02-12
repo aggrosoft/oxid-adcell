@@ -1,0 +1,26 @@
+{
+  "name": "aggrosoft/oxid-adcell",
+  "type": "oxideshop-module",
+  "description": "Adcell tracking integration for oxid eshop",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alexander Kludt",
+      "homepage": "https://github.com/aggrosoft"
+    }
+  ],
+  "require": {
+    "php": ">=7.0"
+  },
+  "extra": {
+    "oxideshop": {
+      "target-directory": "agadcell"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Aggrosoft\\Adcell\\": "../../../source/modules/agadcell"
+    }
+  },
+  "version": "1.0.0"
+}
