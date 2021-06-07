@@ -15,6 +15,8 @@ class ViewConfig extends ViewConfig_parent {
     }
 
     public function getAdcellProductIdList ($oList) {
+        if (!$oList)
+            return "";
         $array = is_array($oList) ? $oList : $oList->getArray();
         return implode($this->getAdcellProductIdListSeparator(), array_map(function ($o) { return $o->getId(); }, $array));
     }
